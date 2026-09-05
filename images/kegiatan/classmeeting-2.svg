@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgClass2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338CA" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgClass2)" />
+  <circle cx="400" cy="270" r="140" fill="#F59E0B" opacity="0.15" />
+  
+  <!-- Podium 1st, 2nd, 3rd with Medals -->
+  <!-- 2nd place -->
+  <rect x="230" y="340" width="100" height="140" fill="#475569" rx="4" />
+  <text x="268" y="420" fill="#E2E8F0" font-family="sans-serif" font-size="32" font-weight="bold">2</text>
+  <!-- 1st place -->
+  <rect x="350" y="270" width="100" height="210" fill="#FF7A00" rx="4" />
+  <text x="388" y="370" fill="#FFFFFF" font-family="sans-serif" font-size="40" font-weight="bold">1</text>
+  <!-- 3rd place -->
+  <rect x="470" y="380" width="100" height="100" fill="#334155" rx="4" />
+  <text x="508" y="445" fill="#CBD5E1" font-family="sans-serif" font-size="28" font-weight="bold">3</text>
+
+  <!-- Stars -->
+  <polygon points="400,180 408,202 430,202 412,216 418,238 400,224 382,238 388,216 370,202 392,202" fill="#F59E0B" />
+
+  <!-- Floor -->
+  <rect x="0" y="480" width="800" height="120" fill="#0F172A" />
+
+  <!-- Label Badge -->
+  <rect x="40" y="40" width="230" height="38" rx="6" fill="#FF7A00" />
+  <text x="55" y="65" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Class Meeting #2</text>
+</svg>

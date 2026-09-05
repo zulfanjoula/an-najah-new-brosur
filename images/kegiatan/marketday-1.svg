@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgMarket1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgMarket1)" />
+  <circle cx="400" cy="270" r="160" fill="#FBBF24" opacity="0.15" />
+  
+  <!-- Market Stand / Booth Canopy (Striped) -->
+  <!-- Canopy Awning -->
+  <polygon points="220,240 580,240 560,300 240,300" fill="#EF4444" />
+  <!-- Awning Stripes -->
+  <polygon points="280,240 340,240 320,300 260,300" fill="#FFFFFF" />
+  <polygon points="400,240 460,240 440,300 380,300" fill="#FFFFFF" />
+  <polygon points="520,240 580,240 560,300 500,300" fill="#FFFFFF" />
+  
+  <!-- Booth Table / Counter -->
+  <rect x="250" y="380" width="300" height="100" fill="#78350F" rx="4" />
+  <rect x="230" y="360" width="340" height="25" fill="#D97706" rx="4" />
+  
+  <!-- Canopy Poles -->
+  <rect x="245" y="300" width="10" height="70" fill="#CBD5E1" />
+  <rect x="545" y="300" width="10" height="70" fill="#CBD5E1" />
+
+  <!-- Goods on Table -->
+  <circle cx="300" cy="345" r="15" fill="#10B981" />
+  <circle cx="340" cy="345" r="15" fill="#F59E0B" />
+  <rect x="380" y="330" width="40" height="30" rx="4" fill="#3B82F6" />
+  <circle cx="460" cy="345" r="15" fill="#EF4444" />
+
+  <!-- Ground -->
+  <rect x="0" y="480" width="800" height="120" fill="#1E293B" />
+
+  <!-- Label Badge -->
+  <rect x="40" y="40" width="200" height="38" rx="6" fill="#FF7A00" />
+  <text x="55" y="65" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Market Day #1</text>
+</svg>

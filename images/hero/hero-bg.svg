@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="glassOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <!-- Background Sky / Modern Architecture -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)" />
+  <rect width="1920" height="1080" fill="url(#grid)" />
+
+  <!-- Modern Architectural Shapes / Campus Facade -->
+  <!-- Building Left -->
+  <polygon points="100,1080 100,450 650,300 650,1080" fill="#1E293B" opacity="0.8" />
+  <polygon points="650,300 1150,220 1150,1080 650,1080" fill="#293548" />
+  <polygon points="1150,220 1700,380 1700,1080 1150,1080" fill="#1E293B" opacity="0.9" />
+
+  <!-- Architectural Accents in Orange -->
+  <polygon points="630,300 670,300 670,1080 630,1080" fill="url(#accentOrange)" />
+  <polygon points="1130,220 1170,220 1170,1080 1130,1080" fill="url(#accentOrange)" />
+  <polygon points="650,300 1150,220 1150,235 650,315" fill="url(#accentOrange)" />
+
+  <!-- Glass Windows Rows -->
+  <g fill="#38BDF8" opacity="0.15">
+    <!-- Row 1 -->
+    <rect x="700" y="380" width="80" height="120" rx="4" />
+    <rect x="820" y="380" width="80" height="120" rx="4" />
+    <rect x="940" y="380" width="80" height="120" rx="4" />
+    <rect x="1040" y="380" width="60" height="120" rx="4" />
+    
+    <!-- Row 2 -->
+    <rect x="700" y="550" width="80" height="120" rx="4" />
+    <rect x="820" y="550" width="80" height="120" rx="4" />
+    <rect x="940" y="550" width="80" height="120" rx="4" />
+    <rect x="1040" y="550" width="60" height="120" rx="4" />
+
+    <!-- Row 3 -->
+    <rect x="700" y="720" width="80" height="120" rx="4" />
+    <rect x="820" y="720" width="80" height="120" rx="4" />
+    <rect x="940" y="720" width="80" height="120" rx="4" />
+    <rect x="1040" y="720" width="60" height="120" rx="4" />
+  </g>
+
+  <!-- Glowing lights & atmosphere -->
+  <circle cx="950" cy="180" r="400" fill="#FF7A00" opacity="0.12" filter="blur(60px)" />
+  <circle cx="1600" cy="400" r="300" fill="#38BDF8" opacity="0.08" filter="blur(60px)" />
+
+  <!-- Front Plaza / Greenery silhouettes -->
+  <path d="M0,920 Q480,880 960,920 T1920,920 L1920,1080 L0,1080 Z" fill="#0F172A" />
+  <path d="M0,960 Q960,900 1920,960 L1920,1080 L0,1080 Z" fill="#090D16" />
+
+  <!-- Dark readable overlay gradient -->
+  <rect width="1920" height="1080" fill="url(#glassOverlay)" />
+</svg>

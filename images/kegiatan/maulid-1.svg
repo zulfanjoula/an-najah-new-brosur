@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgMaulid1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgMaulid1)" />
+  
+  <!-- Mosque Silhouette -->
+  <!-- Dome -->
+  <path d="M400 180 C320 220 310 320 310 360 L490 360 C490 320 480 220 400 180 Z" fill="#FF7A00" />
+  <line x1="400" y1="140" x2="400" y2="180" stroke="#F59E0B" stroke-width="6" />
+  <circle cx="400" cy="135" r="8" fill="#F59E0B" />
+  <!-- Crescent -->
+  <path d="M404 125 A12 12 0 1 0 404 145 A10 10 0 1 1 404 125" fill="#F59E0B" />
+  
+  <!-- Building Base -->
+  <rect x="260" y="360" width="280" height="160" fill="#1E293B" />
+  <!-- Minarets -->
+  <rect x="220" y="240" width="30" height="280" fill="#334155" />
+  <polygon points="215,240 235,190 255,240" fill="#FF7A00" />
+  <rect x="550" y="240" width="30" height="280" fill="#334155" />
+  <polygon points="545,240 565,190 585,240" fill="#FF7A00" />
+
+  <!-- Arches -->
+  <path d="M370 520 L370 430 C370 400 430 400 430 430 L430 520 Z" fill="#0F172A" />
+  <rect x="0" y="520" width="800" height="80" fill="#090D16" />
+
+  <!-- Lanterns / Light -->
+  <circle cx="400" cy="270" r="120" fill="#F59E0B" opacity="0.15" />
+
+  <!-- Label Badge -->
+  <rect x="40" y="40" width="190" height="38" rx="6" fill="#FF7A00" />
+  <text x="55" y="65" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold">Maulid Nabi #1</text>
+</svg>
